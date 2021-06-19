@@ -1,2 +1,2 @@
 # parallax_webpage
-webpage based on parallax effect
+webpage based on parallax.
