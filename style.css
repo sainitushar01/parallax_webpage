@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.container__1,.container__3,.container__5,.container__7{
+    height:100vh;
+    width:100vw;
+}
+.container__1__image,.container__3__image,.container__5__image,.container__7__image{
+height:100%;
+width:100%;
+opacity:0.6;
+}
+.container__1{
+    position:relative;
+    background-image: url('http://2.bp.blogspot.com/-5HTG_Ggg6tA/TpXEfRQBxiI/AAAAAAAAACw/Dgv35d88-28/s1600/shoot-stars-full-moon.jpg');
+}
+.container__1__text{
+    width:250px;
+    padding:10px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-image:linear-gradient(to right, red 3%,orange 30%, rgb(231, 24, 24) 90%);
+   font-size:23px;
+   font-family:Arial, Helvetica, sans-serif;
+   color:white;
+   font-weight:700;
+   border-radius:15px;
+}
+.container__3{
+    position:relative;
+}
+.container__3__text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-style:italic;
+    font-size:40px;
+   font-family:Arial, Helvetica, sans-serif;
+   color:black;
+   font-weight:500;
+}
+.container__5{
+    position:relative;
+}
+.container__5__text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-style:italic;
+    font-size:40px;
+   font-family:Arial, Helvetica, sans-serif;
+   color:white;
+   font-weight:500;
+}
+.container__7{
+    position:relative;
+    background-image: url("https://wallup.net/wp-content/uploads/2016/02/18/259393-sun_rays-sunrise-clouds-sky-nature-orange.jpg");
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position:center;
+}
+.container__7__text{
+    width:250px;
+    padding:10px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-image:linear-gradient(to right, red 3%,orange 30%, rgb(231, 24, 24) 90%);
+   font-size:23px;
+   font-family:Arial, Helvetica, sans-serif;
+   color:white;
+   font-weight:700;
+   border-radius:15px;
+}
+.container__7__texte,.container__1__texte{
+   
+    width:100%;
+}
+.container__2{
+    background-color:#fff;
+    color:black;
+    height:100%;
+    padding:50px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+.container__6,.container__4{
+    background-color: rgb(40,46,52);
+    color:#fff;
+height:100%;
+padding:50px;
+letter-spacing: 1px;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif
+}
+.container__4__heading,.container__2__heading,.container__6__heading{
+    margin:30px;
+}
+article{
+    margin-left:40px;
+    margin-right: 40px;
+}
+@media (min-width:768px)
+{
+    .container__5__text,.container__3__text{
+        font-size:70px;
+    }
+    .container__1,.container__7{
+        position:relative;
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+    .container__1__text,.container__7__text{
+        width:450px;
+        padding:25px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+        background-image:linear-gradient(to right, red 3%,orange 30%, rgb(231, 24, 24) 90%);
+       font-size:38px;
+       font-family:Arial, Helvetica, sans-serif;
+       color:white;
+       font-weight:700;
+       border-radius:20px;
+    }
+    .container__1__texte,.container__7__texte{
+    
+       width:100%;
+    }
+    .container__2{
+        background-color:#fff;
+        color:black;
+        height:50vh;
+        padding:50px;
+        letter-spacing: 1px;
+        text-align: center;
+        font-size:1.5em;
+        font-family:Arial, Helvetica, sans-serif
+    }
+    .container__6,.container__4{
+        background-color: rgb(40,46,52);
+        color:#fff;
+    height:50vh;
+    padding:50px;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+    }
+    .container__4__heading,.container__2__heading,.container__6__heading{
+        margin:25px;
+    }
+    .container__2,.container__3,.container__4,.container__5,.container__6{
+        height:45%;
+    }
+    .container__3__image{
+        height:100%;
+    }
+    .container__5__image{
+        height:100%;
+    }
+}
+@media (min-width:1024px)
+{
+    .container__2,.container__3,.container__4,.container__5,.container__6{
+        height:28%;
+    }
+    .container__3__image{
+        height:100%;
+    }
+    .container__5__image{
+        height:100%;
+    }
+}
+@media (min-width:1300px)
+{
+    .container__2,.container__3,.container__4,.container__5,.container__6{
+        height:40vh;
+    }
+    .container__4,.container__6,.container__2{
+        padding-bottom:20px;
+    }
+    .container__3__image{
+        height:100%;
+    }
+    .container__5__image{
+        height:100%;
+    }
+}
