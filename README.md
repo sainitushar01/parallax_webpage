@@ -1,2 +1,1 @@
-# parallax_webpage
-webpage based on parallax.
+#tried to make parallax webpage
